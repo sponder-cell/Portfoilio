@@ -1,0 +1,250 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+#everything{
+  background-color: black;
+  color:white;
+  font-size: 1.3rem;
+  font-family: "ubuntu";
+}
+#everything h3{
+  color:orange;
+  font-size: 3rem;
+}
+body{
+  min-height: 100vh;
+  background-color: black;
+  color:white;
+  font-family: "ubuntu";
+}
+nav{
+  background-color: black;
+  padding: 10px 10px 5px 10px;
+}
+nav ul{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  align-content:space-around;
+  padding-top: 10px;
+
+}
+ ul li{
+   display:inline-block;
+
+
+}
+ul li a{
+  color:white;
+text-decoration: none;
+padding:40px 30px;
+font-weight: bolder;
+font-size: 1rem;
+transition: 0.2s ease;
+}
+ul li a:hover{
+  text-decoration: underline;
+}
+.intro{
+  padding:90px 30px;
+}
+span{
+  color:orange;
+}
+.intro h1{
+}
+/* input{
+  width:80%;
+  padding: 20px 7px;
+  margin-top: 30px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thin;
+}
+.input{
+  margin-top: 5px;
+} */
+
+input[type=text],input[type=email],textarea{
+  width:100%;
+  padding:12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=submit]{
+  padding: 12px;
+  border-radius: 4px;
+  background-color: orange;
+}
+form{
+  text-align: left;
+}
+.name{
+  display: inline-block;
+}
+.about{
+  text-align: center;
+  padding:70px;
+}
+.skills{
+  text-align: center;
+  padding: 70px;
+}
+.skills img{
+  width:100px;
+  height: 100px;
+}
+.other-skills{
+  margin-top: 50px;
+}
+progress{
+  width:70%;
+}
+.col-lg-4{
+  position:relative;
+}
+.coffee{
+  position: absolute;
+}
+
+.coffee:hover{
+  opacity:1;
+}
+.portfolio{
+  text-align: center;
+  padding:60px;
+}
+.grow{
+  transition: all .2s ease-in-out;
+}
+.grow:hover{
+  transform:scale(1.1);
+}
+button{
+  border-radius: 50%;
+  padding: 10px;
+}
+img{
+  width:450px;
+  margin: 20px 10px;
+  max-width: 100%;
+  height: 300px;
+  flex: 1 1 150px;
+  position: relative;
+
+}
+.content{
+  position: absolute;
+  top: 30%;
+  left:20px;
+  background-color:;
+  width:100%;
+padding-top: 30px;
+padding-bottom: 30px;
+  opacity:0 ;
+  transition: 0.6s;
+}
+.content:hover{
+  opacity:1;
+}
+.content p{
+  color:orange;
+  font-size: 2rem;
+}
+.fa-brands{
+  color:white;
+  padding: 20px 0px;
+}
+.links{
+  border-style: solid;
+  border-width: thin;
+  border-radius: 50%;
+  border-color: white;
+  padding: 2px;
+  margin: 0px 5px;
+}
+.links:hover{
+  background-color: orange;
+}
+.profile{
+border-radius: 50%;
+}
+.contact{
+  text-align: center;
+  padding:70px;
+}
+.get-touch{
+  /* text-align: left;
+  margin-left: 35%;
+  padding: 5px 0px; */
+}
+.row{
+  padding-top: 50px;
+}
+.number{
+  border-style: solid;
+  border-width: thin;
+  width:200px;
+  margin-top: 10px;
+
+  margin-left: 30%;
+}
+.phone{
+  padding:20px;
+  text-align: left;
+}
+.mail{
+  padding:20px;
+  text-align: left;
+
+}
+.number:hover{
+  background-color: orange;
+}
+.email:hover{
+  background-color: orange;
+}
+.email{
+  border-style: solid;
+  border-width: thin;
+  width:200px;
+  margin-top: 10px;
+  margin-left: 30%;
+
+}
+.contact a{
+  color:inherit;
+  text-decoration:underline;
+
+}
+iframe{
+  width:70%;
+  margin-top: 20px;
+  padding-top: 40px;
+}
+.quick-link{
+  text-align: center;
+}
+.submit{
+  width: auto;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 70px;
+  width: auto;
+}
+
+@media screen and (max-width:1024px){
+.intro{
+  text-align: center;
+}
+.contact-form{
+  padding-top: 40px;
+}
+iframe{
+  width:100%;
+}
+}
