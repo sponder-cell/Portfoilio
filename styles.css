@@ -17,6 +17,7 @@
   color: orange;
   background-color: black;
   border-color: orange;
+  border-width: thin;
 border-top-left-radius: 10%;
 border-top-right-radius: 10%;
 border-bottom-left-radius: 10%;
