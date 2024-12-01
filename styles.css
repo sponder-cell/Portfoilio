@@ -12,6 +12,22 @@
   color:orange;
   font-size: 3rem;
 }
+.button{
+  padding: 10px;
+  color: orange;
+  background-color: black;
+  border-color: orange;
+border-top-left-radius: 10%;
+border-top-right-radius: 10%;
+border-bottom-left-radius: 10%;
+border-bottom-right-radius: 10%;
+margin-left: 5px;
+}
+
+.button:hover{
+  background: orange;
+  color: black;
+}
 body{
   height: 100vh;
   background-color: black;
@@ -244,6 +260,12 @@ iframe{
 .intro-hd{
   font-size: 4.5rem;
 }
+.number{
+  width:300px;
+}
+.email{
+  width:300px;
+}
 .contact-form{
   padding-top: 40px;
 }
@@ -255,6 +277,9 @@ iframe{
 }
 #everything h3{
   font-size: 4rem;
+}
+#everything h4{
+  font-size: 2rem;
 }
 ul li a{
   font-size: 2rem;
