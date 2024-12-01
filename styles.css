@@ -320,4 +320,11 @@ ul li a{
   width:500px;
   height:500px;
 }
+.nav-txt{
+  font-size: 2rem;
+}
+svg{
+  width:60px;
+  height: 60px;
+}
 }
